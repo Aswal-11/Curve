@@ -113,12 +113,12 @@ export default function Navbar() {
         </div>
 
         {/* CTA Button */}
-        <div className="group  flex items-center gap-1 rounded-3xl bg-[#2331F3] p-1  max-lg:hidden">
+        <div className="group flex items-center gap-1 rounded-3xl bg-[#2331F3] p-1  max-lg:hidden">
           <Button className="bg-transparent hover:bg-transparent p-1 text-white text-base">
             Let's Talk
           </Button>
 
-          <div className=" relative w-[30px] h-[30px] bg-white rounded-full  rotate-45 group-hover:rotate-0 transition-all duration-300flex items-center justify-center">
+          <div className=" relative w-[30px] h-[30px] bg-white rounded-full  rotate-45 group-hover:rotate-0 transition-all delay-150 duration-500 flex items-center ">
             <Image src="/arrow.svg" alt="Arrow" fill className="object-contain" />
           </div>
         </div>
