@@ -113,8 +113,8 @@ export default function Navbar() {
         </div>
 
         {/* CTA Button */}
-        <div className=" animate-rotate-border maz-w-sm rounded-full bg-conic/[from_var(--border-angle)] from-black via-black to-white p-px">
-          <div className=" flex group items-center gap-1 rounded-3xl bg-[#2331F3] p-1  max-lg:hidden ">
+        <div className=" animate-rotate-border maz-w-sm rounded-full bg-conic/[from_var(--border-angle)] from-black via-black to-white p-px  max-lg:hidden">
+          <div className=" flex group items-center gap-1 rounded-3xl bg-[#2331F3] p-1  ">
             <Button className="bg-transparent hover:bg-transparent p-1 text-white text-base">
               Let's Talk
             </Button>
