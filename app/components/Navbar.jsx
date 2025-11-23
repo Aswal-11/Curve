@@ -24,7 +24,7 @@ import { ChevronDown } from "lucide-react";
 export default function Navbar() {
   return (
     <nav className="w-full bg-black sticky top-0 z-50">
-      <div className="container flex justify-between items-center p-2">
+      <div className=" flex justify-between items-center p-2">
 
         {/* Logo */}
         <Link href="/" className="text-xl text-red-600 font-semibold">
