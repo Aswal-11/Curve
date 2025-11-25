@@ -65,14 +65,12 @@
 
 @media (max-width: 320px) {
   .mx-nine {
-    margin-left: 24px; /* change value as you want */
-    margin-right: 24px;
+   width: 78%;
   }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   .mx-ten {
-    margin-left: 48px; /* change value as you want */
-    margin-right: 48px;
+   width: 70%;
   }
 }
