@@ -12,7 +12,7 @@ export default function Page() {
 
 
       <div className='flex justify-center font-bold'>
-        <div className='flex justify-center mx-nine mx-ten lg:w-4/6 max-sm:gap-1'>
+        <div className='flex justify-center mx-nine mx-ten pr-1 lg:w-4/6 max-sm:gap-1'>
           <p className='w-1/2 lg:w-2/5 max-sm:text-right md:text-center  text-lg sm:text-xl md:text-5xl lg:text-4xl xl:text-6xl'>Tomorrow's</p>
           <div className='w-1/2 lg:w-3/5'>
             <div className="relative h-7 md:h-14 xl:h-18 flex w-full items-center justify-center overflow-hidden border-[0.5px] rounded-full text-[18px] sm:text-2xl md:text-[52px] lg:text-[40px] xl:text-[67px] inset-0 ">
