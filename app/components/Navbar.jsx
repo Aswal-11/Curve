@@ -23,7 +23,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <nav className="w-full bg-black sticky top-0 z-50">
+    <nav className="w-full sticky top-0 z-50">
       <div className=" flex justify-between items-center p-2">
 
         {/* Logo */}
@@ -113,7 +113,7 @@ export default function Navbar() {
         </div>
 
         {/* CTA Button */}
-        <div className=" animate-rotate-border maz-w-sm rounded-full bg-conic/[from_var(--border-angle)] from-black via-black to-white p-px  max-lg:hidden">
+        <div className=" animate-rotate-border max-w-sm rounded-full bg-conic/[from_var(--border-angle)] from-black via-black to-white p-px  max-lg:hidden">
           <div className=" flex group items-center gap-1 rounded-3xl bg-[#2331F3] p-1  ">
             <Button className="bg-transparent hover:bg-transparent p-1 text-white text-base">
               Let's Talk

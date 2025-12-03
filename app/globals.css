@@ -2,7 +2,10 @@
 @import "tw-animate-css";
 
 :root {
-  --container-width: 1440px;
+  max-width: 1550px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2331f3;
 }
 
 @property --border-angle {
@@ -71,7 +74,7 @@
 
 @media (min-width: 1440px) {
   .mx-nine {
-   width: 57%;
+   width: 60%;
   }
 }
 
