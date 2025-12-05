@@ -34,12 +34,6 @@ export default function Page() {
                   POSSIBILITY
                 </h1>
               </div>
-
-              <div className="absolute inset-0 flex items-center justify-center">
-                <h1 className="roll-text roll-text-3 font-bold bg-clip-text text-white">
-                  DESIGN
-                </h1>
-              </div>
             </div>
           </div>
         </div>
@@ -47,7 +41,7 @@ export default function Page() {
 
       <div className='flex justify-center items-center pt-5 text-white'>
         <p className='text-center font-mid text-[14px] md:text-xl text-wrap w-2/3 xl:w-full'>Shaping tomorrow with creativity, innovation, and purpose.</p>
-      </div>
+      </div> 
 
       <div className='flex justify-center items-center pt-10'>
         <div className=" flex group justify-center items-center gap-4 rounded-4xl bg-white py-1 px-3 ">
