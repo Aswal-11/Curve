@@ -24,7 +24,7 @@ import { ChevronDown } from "lucide-react";
 export default function Navbar() {
   return (
     <nav className="w-full sticky top-0 z-50">
-      <div className=" flex justify-between items-center p-2">
+      <div className=" flex justify-between items-center p-2 lg:py-5 lg:px-10">
 
         {/* Logo */}
         <Link href="/" className="text-xl text-red-600 font-semibold">
@@ -59,23 +59,23 @@ export default function Navbar() {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <Link href="/team" className="hover:text-primary transition-colors">
+          <Link href="/team" className="hover:text-primary  transition-colors">
             Team
           </Link>
 
-          <Link href="/case_studies" className="hover:text-primary transition-colors">
+          <Link href="/case_studies" className="hover:text-primary  transition-colors">
             Case Studies
           </Link>
 
-          <Link href="/services" className="hover:text-primary transition-colors">
+          <Link href="/services" className="hover:text-primary  transition-colors">
             Services
           </Link>
 
-          <Link href="/blogs" className="hover:text-primary transition-colors">
+          <Link href="/blogs" className="hover:text-primary  transition-colors">
             Blogs
           </Link>
 
-          <Link href="/career" className="hover:text-primary transition-colors">
+          <Link href="/career" className="hover:text-primary  transition-colors">
             Career
           </Link>
         </div>
@@ -89,7 +89,7 @@ export default function Navbar() {
               </div>
             </SheetTrigger>
 
-            <SheetContent side="right" className="w-[250px] sm:w-[300px]">
+            <SheetContent side="right" className="w-[250px] sm:w-[300px] bg-white">
 
               <SheetHeader>
                 <SheetTitle>Menu</SheetTitle>
@@ -98,14 +98,14 @@ export default function Navbar() {
                 </SheetDescription>
               </SheetHeader>
 
-              <div className="flex flex-col space-y-6 mt-8">
-                <Link href="/" className="text-lg hover:text-primary">Home</Link>
-                <Link href="/company" className="text-lg hover:text-primary">Company</Link>
-                <Link href="/team" className="text-lg hover:text-primary">Team</Link>
-                <Link href="/case_studies" className="text-lg hover:text-primary">Case Studies</Link>
-                <Link href="/services" className="text-lg hover:text-primary">Services</Link>
-                <Link href="/blogs" className="text-lg hover:text-primary">Blogs</Link>
-                <Link href="/career" className="text-lg hover:text-primary">Career</Link>
+              <div className="flex flex-col space-y-6 pl-4 mt-8">
+                <Link href="/" className="text-[16px] hover:text-primary">Home</Link>
+                <Link href="/company" className="text-[16px] hover:text-primary">Company</Link>
+                <Link href="/team" className="text-[16px] hover:text-primary">Team</Link>
+                <Link href="/case_studies" className="text-[16px] hover:text-primary">Case Studies</Link>
+                <Link href="/services" className="text-[16px] hover:text-primary">Services</Link>
+                <Link href="/blogs" className="text-[16px] hover:text-primary">Blogs</Link>
+                <Link href="/career" className="text-[16px] hover:text-primary">Career</Link>
               </div>
 
             </SheetContent>
@@ -114,7 +114,7 @@ export default function Navbar() {
 
         {/* CTA Button */}
         <div className=" animate-rotate-border max-w-sm rounded-full bg-conic/[from_var(--border-angle)] from-black via-black to-white p-px  max-lg:hidden">
-          <div className=" flex group items-center gap-1 rounded-3xl bg-[#2331F3] p-1  ">
+          <div className=" flex group items-center gap-1 rounded-3xl bg-[radial-gradient(ellipse,#626DFF,#2331F3)] p-1">
             <Button className="bg-transparent hover:bg-transparent p-1 text-white text-base">
               Let's Talk
             </Button>
