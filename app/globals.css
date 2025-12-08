@@ -17,11 +17,24 @@
 @property --border-angle {
   syntax: "<angle>";
   inherits: false;
-  initial-value: 0deg;
+  initial-value: 40deg;
+}
+
+@keyframes rotate-border {
+  from {
+    --border-angle: 4deg;
+  }
+  to {
+    --border-angle: 360deg;
+  }
+}
+
+.animate-rotate-border {
+  animation: rotate-border 20s linear infinite; 
 }
 
 @theme {
-  --animate-rotate-border: border-rotate 6s linear infinite;
+  --animate-rotate-border: border-rotate 12s linear infinite;
 
   @keyframes border-rotate {
     to {
@@ -81,5 +94,27 @@
 @media (min-width: 350px) and (max-width: 456px) {
   .mx-ten {
    width: 65% !important;
+  }
+}
+
+
+
+/*  */
+.animated-line {
+  overflow: visible;
+}
+
+.drop {
+  stroke-dasharray: 260; /* Total path length */
+  stroke-dashoffset: 260; /* Start hidden */
+  animation: move-drop 3s linear infinite;
+}
+
+@keyframes move-drop {
+  0% {
+    stroke-dashoffset: 260; /* Start at the top */
+  }
+  100% {
+    stroke-dashoffset: 0; /* Move along path */
   }
 }

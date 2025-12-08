@@ -41,7 +41,7 @@ export default function Page() {
 
       <div className='flex justify-center items-center pt-5 text-white'>
         <p className='text-center font-mid text-[14px] md:text-xl text-wrap w-2/3 xl:w-full'>Shaping tomorrow with creativity, innovation, and purpose.</p>
-      </div> 
+      </div>
 
       <div className='flex justify-center items-center pt-10'>
         <div className=" flex group justify-center items-center gap-4 rounded-4xl bg-white py-1 px-3 ">
@@ -54,6 +54,58 @@ export default function Page() {
           </div>
         </div>
       </div>
+
+      <div className='flex justify-center items-center pt-25'>
+        <div className='w-7/8 flex justify-center items-center rounded-3xl animate-rotate-border bg-conic/[from_var(--border-angle)] from-blue-950 via-blue-950 to-white p-px'>
+          <div className='w-full rounded-3xl bg-blue-950 p-7 py-6'>
+            <p className="font-semibold text-center text-md md:text-xl text-white flex justify-center gap-2">
+              <span>Trusted By More Than</span>
+              <span className="text-blue-600">+10,000</span>
+              <span>Clients</span>
+            </p>
+
+            <div className="flex flex-wrap gap-4 justify-center items-center mt-5 lg:px-20">
+              <Image src="/company-logos/network.png" width={160} height={100} className="w-24 h-10 md:w-40 md:h-16" alt="" />
+              <Image src="/company-logos/penta.png" width={160} height={100} className="w-24 h-10 md:w-40 md:h-16" alt="" />
+              <Image src="/company-logos/product.png" width={160} height={100} className="w-24 h-10 md:w-40 md:h-16" alt="" />
+              <Image src="/company-logos/sitemark.png" width={160} height={100} className="w-24 h-10 md:w-40 md:h-16" alt="" />
+              <Image src="/company-logos/vision.png" width={160} height={100} className="w-24 h-10 md:w-40 md:h-16" alt="" />
+              <Image src="/company-logos/waveless.png" width={160} height={100} className="w-24 h-10 md:w-40 md:h-16" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="relative w-[220px] h-[220px]">
+        <svg
+          width="220"
+          height="220"
+          viewBox="0 0 220 220"
+          className="absolute top-0 left-0"
+        >
+          {/* Background Line */}
+          <path
+            d="M180 20 V180 H20"
+            stroke="rgba(255,255,255,0.15)"
+            strokeWidth="6"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+
+          {/* Animated Drop Line */}
+          <path
+            className="drop-line"
+            d="M180 20 V180 H20"
+            stroke="rgba(255,255,255,0.9)"
+            strokeWidth="6"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
+
     </div>
   )
 }
