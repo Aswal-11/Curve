@@ -64,15 +64,15 @@ export default function Page() {
       </div>
 
       <div className='flex justify-center items-center pt-15 md:pt-22'>
-        <div className='w-7/8 flex justify-center items-center rounded-3xl animate-rotate-border bg-conic/[from_var(--border-angle)] from-blue-950 via-blue-950 to-white p-px'>
-          <div className='w-full rounded-3xl bg-blue-950 md:p-7 py-6'>
-            <p className="font-medium text-center text-sm md:text-xl text-white flex justify-center gap-2">
+        <div className='w-[95%] md:w-7/8 flex justify-center items-center rounded-3xl animate-rotate-border bg-conic/[from_var(--border-angle)] from-blue-950 via-blue-950 to-white p-px'>
+          <div className='w-full rounded-3xl bg-blue-950 md:p-7 py-4 md:py-6'>
+            <p className="font-medium text-center text-xs md:text-xl text-white flex justify-center gap-2">
               <span>Trusted By More Than</span>
               <span className="text-blue-600">+10,000</span>
               <span>Clients</span>
             </p>
 
-            <div className="flex flex-wrap md:gap-4 justify-center items-center mt-5 lg:px-20">
+            <div className="flex flex-wrap md:gap-4 justify-center items-center pt-2 md:pt-5 lg:px-20">
               {logos.map((logo, index) => (
                 <Image
                   key={index}
@@ -81,7 +81,7 @@ export default function Page() {
                   height={100}
                   alt=""
                   className={`
-                    w-16 h-7 md:w-40 md:h-16
+                    w-20 h-9 md:w-40 md:h-16
                     ${index >= 4 ? "hidden md:block" : ""}
                   `}
                 />
